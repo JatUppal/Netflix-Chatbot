@@ -1,0 +1,29 @@
+{
+  "name": "scrimba-langchain",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "ingest": "node ingest.js",
+    "dev": "node --watch index.js",
+    "lint": "eslint .",
+    "format": "prettier -w ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.53",
+    "@supabase/supabase-js": "^2.56.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^16.6.1",
+    "eslint": "^9.33.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.31",
+    "prettier": "^3.6.2"
+  }
+}
